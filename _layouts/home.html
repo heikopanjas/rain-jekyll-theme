@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% if site.about %} {% include about.html % } {% endif %}
-
 <div class="catalogue">
   {% for post in paginator.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
