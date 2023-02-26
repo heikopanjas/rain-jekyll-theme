@@ -1,22 +1,26 @@
 // Colors
 $default-color: #000000;
-// $default-shade: #353535;
-$default-shade: #000000;
-// $default-tint: #aaa;
-$default-tint: #000000;
+$default-tint: #303030;
+
 $grey-1: #979797;
 $grey-2: #e5e5e5;
 $grey-3: #f9f9f9;
-$white: #fff;
-$blue: #4a9ae1;
+
+$black: #000000;
+$white: #ffffff;
+// $blue: #4a9ae1;
+
+$dark-read: #800000;
+$dark-blue: #000080;
+
 $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
 $serif: 'Cormorant SC', serif;
 $sans-serif: 'Cormorant Garamond', sans-serif;
-// $monospaced: 'IBM Plex Mono', monospace;
 $monospaced: 'Courier Prime', monospace;
+
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
      -moz-box-sizing: $type;
