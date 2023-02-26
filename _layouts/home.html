@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% if site.introduction %} {% include introduction.html %} {% endif %}
+{% if site.introduction %} {% include introduction.html %}
+<div class="catalogue-line"></div>
+{% endif %}
 
 <div class="catalogue">
   {% for post in paginator.posts %}
