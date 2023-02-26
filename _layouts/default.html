@@ -52,10 +52,9 @@
       <span>
         Copyright &copy;
         <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{
-        site.author.name }}. {% if site.legal.imprint %}
-        <a href="{{ site.legal.imprint }}">Imprint</a>
-        {% endif %} {% if site.legal.privacy %}
-        <a href="{{ site.legal.privacy }}">Privacy</a>
+        site.author.name }} {% if site.legal.imprint %} |
+        <a href="{{ site.legal.imprint }}">Imprint</a> {% endif %} {% if
+        site.legal.privacy %} | <a href="{{ site.legal.privacy }}">Privacy</a>
         {% endif %}
       </span>
     </footer>
