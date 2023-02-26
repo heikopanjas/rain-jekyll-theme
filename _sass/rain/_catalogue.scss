@@ -18,11 +18,12 @@
   &-time {
     color: $default-tint;
     font-family: $serif;
+    font-size: 12px;
     letter-spacing: .5px;
   }
 
   &-title {
-    color: $default-shade;
+    color: $default-color;
     display: block;
     font-family: $serif;
     font-size: 1.8rem;
@@ -32,7 +33,7 @@
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .15rem solid $default-shade;
+    border-top: .15rem solid $default-tint;
     display: block;
     width: 3rem;
   }
