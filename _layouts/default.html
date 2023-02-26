@@ -38,6 +38,10 @@
       </div>
     </nav>
 
+    {% if site.social.mastodon %}
+    <a rel="me" href="{{ site.social.mastodon }}"></a>
+    {% endif %}
+
     <main>{{ content }}</main>
 
     <footer>
