@@ -15,8 +15,8 @@ $code-color: #bf616a;
 // Fonts
 $serif: 'Cormorant SC', serif;
 $sans-serif: 'Cormorant Garamond', sans-serif;
-$monospaced: 'IBM Plex Mono', monospace;
-
+// $monospaced: 'IBM Plex Mono', monospace;
+$monospaced: 'Courier Prime', monospace;
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
      -moz-box-sizing: $type;
